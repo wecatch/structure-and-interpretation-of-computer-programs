@@ -4,7 +4,10 @@ body {
    margin-top: 2em;
    margin-left: 8%;
    margin-right: 8%;
-   font-size: 18px;
+   font-size: 16px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+   width: 800px;
+   margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,7 +19,18 @@ a {
    text-decoration: none;
    color: #2C82C9;
    display: inline-block;
-   padding: 6px 12px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: 400;
+   white-space: nowrap;
+   font-size: 18px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+   text-decoration: none;
+   color: #2C82C9;
+   display: inline-block;
+   padding: 8px 0px;
    margin-bottom: 0;
    font-size: 14px;
    font-weight: 400;
@@ -29,13 +43,12 @@ a {
 
 
 p {
-   margin: 10px 20px;
+   margin: 15px 0px;
    font-weight: 400;
    font-style: normal;
    /*font-size: 21px;*/
    line-height: 1.58;
    letter-spacing: -.003em;
-   font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 .partheading {
@@ -72,11 +85,14 @@ ol ol ol ol {
 
 .footnote p {
    font-size: 14px;
+   margin: 10px 20px;
+   font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 .footnote a {
    padding: 0;
    padding-right: 5px;
+   vertical-align: middle;
 }
 
 .epigraph {
@@ -89,8 +105,12 @@ ol ol ol ol {
 }
 
 .navigation a {
+   display: inline-block;
    color: #E01931;
    cursor: auto;
+   width: auto;
+   margin-right: 0;
+   margin-left: 10px;
 }
 
 .smallprint {
