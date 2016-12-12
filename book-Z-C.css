@@ -87,12 +87,14 @@ ol ol ol ol {
    font-size: 14px;
    margin: 10px 20px;
    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+   margin-left: 0px;
 }
 
 .footnote a {
    padding: 0;
    padding-right: 5px;
    vertical-align: middle;
+   margin-bottom: 4px;
 }
 
 .epigraph {
